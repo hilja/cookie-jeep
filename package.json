@@ -1,17 +1,21 @@
 {
   "name": "cookie-jeep",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Super simple cookie utility for browser",
   "main": "cookie-jeep.js",
+  "repository": "https://github.com/hilja/cookie-jeep.git",
+  "scripts": {
+    "test": "./node_modules/.bin/phantomjs tests/run-jasmine.js tests/spec-runner.html"
+  },
   "directories": {
     "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cookie"
   ],
   "author": "Antti Hilja",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "phantomjs": "^2.1.7"
+  }
 }
