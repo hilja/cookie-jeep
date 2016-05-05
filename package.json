@@ -1,0 +1,17 @@
+{
+  "name": "cookie-jeep",
+  "version": "1.0.0",
+  "description": "Super simple cookie utility for browser",
+  "main": "cookie-jeep.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cookie"
+  ],
+  "author": "Antti Hilja",
+  "license": "MIT"
+}
